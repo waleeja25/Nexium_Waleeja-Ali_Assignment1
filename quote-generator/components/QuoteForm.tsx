@@ -19,16 +19,16 @@ export default function QuoteForm() {
 
   return (
     <div>
-      <form onSubmit={handleSubmit} className="mb-4">
+      <form onSubmit={handleSubmit} className="w-full max-w-md space-y-4">
         <input
           type="text"
           value={topic}
           onChange={(e) => setTopic(e.target.value)}
-          className="border p-2 rounded"
-          placeholder="Enter topic"
+          className="border p-2 rounded w-full"
+          placeholder="Enter a topic"
         />
-        <button type="submit" className="ml-2 bg-blue-500 text-white px-4 py-2 rounded">
-          Get Quotes
+        <button type="submit" className="w-full bg-blue-500 text-white px-4 py-2 rounded">
+          Generate Quotes
         </button>
       </form>
 

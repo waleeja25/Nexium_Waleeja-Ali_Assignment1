@@ -29,7 +29,7 @@ export default function QuoteForm() {
           value={topic}
           onChange={(e) => setTopic(e.target.value)}
           className="border p-2 rounded w-full text-white bg-[#0a1d37] placeholder-gray-400"
-          placeholder="Enter a topic"
+          placeholder="Enter a topic e.g success, motivation"
         />
         <Button
           variant="default"

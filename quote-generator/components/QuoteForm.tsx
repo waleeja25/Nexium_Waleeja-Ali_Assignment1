@@ -33,7 +33,7 @@ export default function QuoteForm() {
         />
         <Button
           variant="default"
-          className="w-full bg-cyan-800 hover:bg-cyan-600 transition-all text-white text-base font-semibold px-6 py-3 rounded-lg shadow-md"
+          className="w-full bg-gradient-to-r from-cyan-600 via-cyan-700 to-cyan-800 hover:from-cyan-500 hover:via-cyan-600 hover:to-cyan-700 text-white text-base font-semibold px-7 py-3.5 rounded-xl shadow-lg"
         >
           Get Quotes
         </Button>

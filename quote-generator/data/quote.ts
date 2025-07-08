@@ -125,7 +125,9 @@ export const quotes = [
 { topic: 'mindfulness', text: 'The present moment is filled with joy and happiness. If you are attentive, you will see it.' },
 { topic: 'growth mindset', text: 'It’s not about being the best. It’s about being better than you were yesterday.' },
 { topic: 'balance', text: 'Almost everything will work again if you unplug it for a few minutes… including you.' },
-{ topic: 'boundaries', text: 'Daring to set boundaries is about having the courage to love ourselves, even when we risk disappointing others.' }
-
+{ topic: 'boundaries', text: 'Daring to set boundaries is about having the courage to love ourselves, even when we risk disappointing others.' },
+{ topic: "life", text: "Life is 10% what happens to us and 90% how we react to it." },
+{ topic: "life", text: "In the end, it’s not the years in your life that count. It’s the life in your years." },
+{ topic: "life", text: "Life isn’t about finding yourself. It’s about creating yourself." }
 
 ];

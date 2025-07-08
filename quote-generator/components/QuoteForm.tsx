@@ -40,7 +40,7 @@ export default function QuoteForm() {
       </form>
 
       {results.length > 0 && (
-        <div className="mt-8 p-4 bg-[#0a1d37] rounded-lg shadow-md space-y-4">
+        <div className="mt-8 space-y-4">
           <div className="flex items-center gap-2 text-xl font-semibold text-amber-500">
             <Sparkles className="w-6 h-6" />
             Top Quotes

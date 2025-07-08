@@ -11,8 +11,10 @@ import { ReactNode } from 'react';
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-[#1c3350] text-black">
-       < header className="w-full bg-white shadow-md p-6 text-center text-3xl font-extrabold text-gray-800">Quote Generator</header>
+     <body className="min-h-screen bg-[#081e3c] text-black">
+      <header className="w-full bg-gradient-to-r from-[#0e2a4e] via-[#133c63] to-[#1b4d75] shadow-lg ring-1 ring-cyan-400/20 p-6 text-center text-3xl font-extrabold text-white tracking-wide drop-shadow-md rounded-b-xl">
+        ✨ Quote Generator
+      </header>
         <main className="p-4">{children}</main>
       </body>
     </html>
